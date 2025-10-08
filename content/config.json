@@ -1,12 +1,12 @@
 {
   "emailMicrosoftExchange": {
-    "tenant_id": "your-tenant-id",
-    "client_id": "your-client-id",
-    "client_secret": "your-client-secret",
-    "token_cache_file": "token_cache.json"
+    "tenant_id": "",
+    "client_id": "",
+    "client_secret": "",
+    "token_cache_file": ""
   },
   "llm": {
-    "base_url": "http://127.0.0.1:1234",
+    "base_url": "http://127.0.0.1:123",
     "api_key": "",
     "model": "qwen2.5-1.5b-instruct"
   },
@@ -34,4 +34,5 @@
     "chunk_size": 400,
     "chunk_overlap": 100
   }
+
 }
