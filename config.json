@@ -1,0 +1,37 @@
+{
+  "emailMicrosoftExchange": {
+    "tenant_id": "your-tenant-id",
+    "client_id": "your-client-id",
+    "client_secret": "your-client-secret",
+    "token_cache_file": "token_cache.json"
+  },
+  "llm": {
+    "base_url": "http://127.0.0.1:1234",
+    "api_key": "",
+    "model": "qwen2.5-1.5b-instruct"
+  },
+  "analysis": {
+    "days": 7,
+    "max_results": 20,
+    "max_emails_for_llm": 50,
+    "max_body_preview_length": 200,
+    "output_dir": "email_analysis_results"
+  },
+  "collection": {
+    "output_dir": "collected_emails",
+    "output_format": "json",
+    "save_attachments": false,
+    "create_subdirs": true,
+    "attachment_dir": "collected_emails/attachments",
+    "state_file": "state.json"
+  },
+  "rag": {
+    "enabled": true,
+    "use_rag_for_analysis": true,
+    "db_dir": "chroma_db",
+    "analysis_query": "Şirket içi mailler için detaylı bir email özeti çıkart",
+    "retrieval_k": 10,
+    "chunk_size": 400,
+    "chunk_overlap": 100
+  }
+}

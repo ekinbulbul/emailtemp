@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: llmProjects
+Version: 0.1.0
+Summary: Workspace for mailbox summarization utilities and related code.
+Author: ekin
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: msal

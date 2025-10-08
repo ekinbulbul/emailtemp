@@ -1,0 +1,13 @@
+# Existing dependencies
+# (your existing requirements here)
+
+# RAG dependencies
+langchain==0.1.0
+langchain-community==0.0.10
+chromadb==0.4.22
+sentence-transformers==2.3.1
+transformers==4.36.2
+torch>=2.0.0
+
+# Optional: For better performance
+faiss-cpu==1.7.4  # or faiss-gpu if you have CUDA
